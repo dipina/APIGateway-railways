@@ -44,4 +44,5 @@ app.get('*', (req, res) => {
 // starts the app
 app.listen(3000, () => {
     console.log('API Gateway is listening on port 3000!')
+    console.log('Quotes API available at: ' + QUOTES_API_GATEWAY)
 })
